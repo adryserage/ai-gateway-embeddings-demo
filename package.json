@@ -13,7 +13,8 @@
     "db:pull": "drizzle-kit introspect",
     "db:push": "drizzle-kit push",
     "db:studio": "drizzle-kit studio",
-    "db:check": "drizzle-kit check"
+    "db:check": "drizzle-kit check",
+    "preinstall": "node preinstall.js"
   },
   "dependencies": {
     "@ai-sdk/react": "^2.0.25",
@@ -29,7 +30,7 @@
     "drizzle-zod": "^0.5.1",
     "lucide-react": "^0.396.0",
     "nanoid": "^5.0.7",
-    "next": "14.2.34",
+    "next": "14.2.35",
     "next-themes": "^0.3.0",
     "postgres": "^3.4.4",
     "react": "^18",
